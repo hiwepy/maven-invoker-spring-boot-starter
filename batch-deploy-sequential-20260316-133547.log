@@ -1,0 +1,476 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 2.3.x.20240823.RELEASE[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.3.0/maven-invoker-3.3.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.3.0/maven-invoker-3.3.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.3.0/maven-invoker-3.3.0.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.3.0/maven-invoker-3.3.0.jar (0 B at 0 B/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M3:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/classes
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/ext/MavenInvokerTemplate.java: 某些输入文件使用或覆盖了已过时的 API。
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/ext/MavenInvokerTemplate.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-releases::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.jar
+Progress (1): 4.1/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 12/21 kB 
+Progress (1): 16/21 kB
+Progress (1): 20/21 kB
+Progress (1): 21 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.jar (21 kB at 15 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.pom
+Progress (1): 4.1/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 12/19 kB 
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE.pom (19 kB at 18 kB/s)
+Downloading from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Progress (1): 364 B
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml (364 B at 341 B/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.3.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.3.x.20240823.RELEASE-sources.jar (16 kB at 16 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.062 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:31+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[maven-invoker-spring-boot-starter/2.3.x] 成功
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 2.7.x.20240823.RELEASE[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/classes
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/ext/MavenInvokerTemplate.java: 某些输入文件使用或覆盖了已过时的 API。
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/ext/MavenInvokerTemplate.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-releases::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.jar
+Progress (1): 4.1/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 12/21 kB 
+Progress (1): 16/21 kB
+Progress (1): 20/21 kB
+Progress (1): 21 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.jar (21 kB at 17 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.pom
+Progress (1): 4.1/19 kB
+Progress (1): 8.2/19 kB
+Progress (1): 12/19 kB 
+Progress (1): 16/19 kB
+Progress (1): 19 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE.pom (19 kB at 19 kB/s)
+Downloading from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Progress (1): 364 B
+                   
+Downloaded from maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml (364 B at 1.4 kB/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Progress (1): 412 B
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml (412 B at 435 B/s)
+Uploading to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Uploaded to maven-releases: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-releases/com/github/hiwepy/maven-invoker-spring-boot-starter/2.7.x.20240823.RELEASE/maven-invoker-spring-boot-starter-2.7.x.20240823.RELEASE-sources.jar (16 kB at 15 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.548 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:37+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[maven-invoker-spring-boot-starter/2.7.x] 成功
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.292 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:38+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.0.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.1.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.267 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:38+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.1.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.2.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.272 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:39+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.2.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.3.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.271 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:39+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.3.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.4.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.275 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:40+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.4.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 3.5.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.262 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:41+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/3.5.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.272 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:41+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mmaven-invoker-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[maven-invoker-spring-boot-starter/4.0.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:maven-invoker-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:maven-invoker-spring-boot-starter 2.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.2.0/maven-invoker-3.2.0.pom
+Progress (1): 3.8 kB
+Progress (1): 5.2 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.2.0/maven-invoker-3.2.0.pom (5.2 kB at 10.0 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-shared-components/35/maven-shared-components-35.pom
+Progress (1): 4.1 kB
+Progress (1): 4.9 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-shared-components/35/maven-shared-components-35.pom (4.9 kB at 13 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.2.0/maven-invoker-3.2.0.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar (0 B at 0 B/s)
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar (0 B at 0 B/s)
+Progress (1): 4.1 kB
+Progress (1): 8.2 kB
+Progress (1): 11 kB 
+Progress (1): 14 kB
+Progress (1): 18 kB
+Progress (1): 22 kB
+Progress (1): 25 kB
+Progress (1): 29 kB
+Progress (1): 32 kB
+Progress (1): 33 kB
+                   
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/org/apache/maven/shared/maven-invoker/3.2.0/maven-invoker-3.2.0.jar (33 kB at 58 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0:enforce[m [1m(default-cli)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/classes
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/MavenInvokerAutoConfiguration.java: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/MavenInvokerAutoConfiguration.java使用或覆盖了已过时的 API。
+[[1;34mINFO[m] /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/src/main/java/org/apache/maven/spring/boot/MavenInvokerAutoConfiguration.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.1:jar[m [1m(default-jar)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.2.1:jar-no-fork[m [1m(attach-sources)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/pom.xml to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/maven-invoker-spring-boot-starter/target/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar to /Users/wandl/.m2/repository/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.8.2:deploy[m [1m(default-deploy)[m @ [36mmaven-invoker-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Using alternate deployment repository maven-snapshots::default::https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots
+Downloading from maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1.jar
+Progress (1): 4.1/21 kB
+Progress (1): 8.2/21 kB
+Progress (1): 12/21 kB 
+Progress (1): 16/21 kB
+Progress (1): 20/21 kB
+Progress (1): 21 kB   
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1.jar (21 kB at 18 kB/s)
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1.pom
+Progress (1): 4.1/17 kB
+Progress (1): 8.2/17 kB
+Progress (1): 12/17 kB 
+Progress (1): 16/17 kB
+Progress (1): 17 kB   
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1.pom (17 kB at 17 kB/s)
+Downloading from maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 800 B
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml (800 B at 729 B/s)
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml
+Progress (1): 310 B
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/maven-metadata.xml (310 B at 348 B/s)
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1-sources.jar
+Progress (1): 4.1/16 kB
+Progress (1): 8.2/16 kB
+Progress (1): 12/16 kB 
+Progress (1): 16 kB   
+                   
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-invoker-spring-boot-starter-2.0.1-20260316.060545-1-sources.jar (16 kB at 16 kB/s)
+Uploading to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.0 kB
+                    
+Uploaded to maven-snapshots: https://packages.aliyun.com/5fdc0afd99b59ba3c5ead757/maven/maven-snapshots/com/github/hiwepy/maven-invoker-spring-boot-starter/2.0.1-SNAPSHOT/maven-metadata.xml (1.0 kB at 1.1 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.236 s
+[[1;34mINFO[m] Finished at: 2026-03-16T14:05:51+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[maven-invoker-spring-boot-starter/master] 成功
