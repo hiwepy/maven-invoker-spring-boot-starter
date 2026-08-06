@@ -11,7 +11,7 @@ Spring Boot Starter For Maven Invoker
 
 ``` xml
 <dependency>
-	<groupId>io.github.hiwepy</groupId>
+	<groupId>io.github.easy4j</groupId>
 	<artifactId>maven-invoker-spring-boot-starter</artifactId>
 	<version>${project.version}</version>
 </dependency>
