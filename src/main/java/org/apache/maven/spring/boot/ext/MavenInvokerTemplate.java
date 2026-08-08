@@ -37,7 +37,7 @@ import org.springframework.util.Assert;
 
 /**
  *	 基于Maven Invoker的Maven build实现，依赖于本机环境中的Maven环境
- * 	@author ： <a href="https://github.com/easy-4-java">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 public class MavenInvokerTemplate {
 

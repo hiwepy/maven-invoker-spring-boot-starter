@@ -31,7 +31,7 @@ import org.springframework.util.StringUtils;
 /**
  * Maven Invoker 参数配置
  * 
- * @author ： <a href="https://github.com/easy-4-java">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 @ConfigurationProperties(MavenInvokerProperties.PREFIX)
 public class MavenInvokerProperties {

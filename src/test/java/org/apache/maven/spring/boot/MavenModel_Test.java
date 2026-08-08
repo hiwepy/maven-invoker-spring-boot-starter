@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * TODO
  * 
- * @author ： <a href="https://github.com/easy-4-java">hiwepy</a>
+ * @author [@Loong Wan](https://github.com/loong10k)
  */
 
 public class MavenModel_Test {
