@@ -31,7 +31,7 @@ import org.springframework.util.StringUtils;
 /**
  * Maven Invoker 参数配置
  * 
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  */
 @ConfigurationProperties(MavenInvokerProperties.PREFIX)
 public class MavenInvokerProperties {
