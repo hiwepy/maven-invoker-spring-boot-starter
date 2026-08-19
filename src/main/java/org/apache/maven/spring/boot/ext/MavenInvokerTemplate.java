@@ -38,6 +38,7 @@ import org.springframework.util.Assert;
 /**
  *	 基于Maven Invoker的Maven build实现，依赖于本机环境中的Maven环境
  * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
  */
 public class MavenInvokerTemplate {
 
@@ -54,11 +55,24 @@ public class MavenInvokerTemplate {
 		this.mavenInvoker = mavenInvoker;
 		this.properties = invokerProperties;
 	}
+	/**
+	 * <p>Install.</p>
+	 * @param filepath the filepath
+	 * @param coordinates the coordinates
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 	
 	public InvocationResult install(String filepath, String coordinates) throws MavenInvocationException {
 		Assert.notNull(coordinates, "coordinates must not be null");
 		return this.install(MavenResource.parse(filepath, coordinates));
 	}
+	/**
+	 * <p>Install.</p>
+	 * @param resource the resource
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 	
 	public InvocationResult install(MavenResource resource) throws MavenInvocationException {
 		
@@ -73,6 +87,15 @@ public class MavenInvokerTemplate {
 		return mavenInvoker.execute(request);
 		
 	}
+	/**
+	 * <p>Deploy.</p>
+	 * @param filepath the filepath
+	 * @param coordinates the coordinates
+	 * @param repositoryUrl the repository url
+	 * @param repositoryId the repository id
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 	
 	public InvocationResult deploy(String filepath, String coordinates, String repositoryUrl, String repositoryId) throws MavenInvocationException {
 		Assert.notNull(coordinates, "coordinates must not be null");
@@ -81,6 +104,12 @@ public class MavenInvokerTemplate {
 		resource.setRepositoryUrl(repositoryUrl);
 		return this.deploy(resource);
 	}
+	/**
+	 * <p>Deploy.</p>
+	 * @param resource the resource
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 
 	public InvocationResult deploy(MavenResource resource) throws MavenInvocationException {
 
@@ -95,6 +124,13 @@ public class MavenInvokerTemplate {
 		
 		return mavenInvoker.execute(request);
 	}
+	/**
+	 * <p>Execute.</p>
+	 * @param basedir the basedir
+	 * @param goals the goals
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 	
 	public InvocationResult execute(File basedir, String... goals) throws MavenInvocationException {
 
@@ -107,10 +143,24 @@ public class MavenInvokerTemplate {
 
 		return mavenInvoker.execute(request);
 	}
+	/**
+	 * <p>Execute.</p>
+	 * @param basedir the basedir
+	 * @param goals the goals
+	 * @return the invocation result
+	 * @throws MavenInvocationException if an error occurs
+	 */
 
 	public InvocationResult execute(String basedir, String... goals) throws MavenInvocationException {
 		return this.execute(new File(basedir), goals);
 	}
+	/**
+	 * <p>Read model.</p>
+	 * @param file the file
+	 * @return the model
+	 * @throws XmlPullParserException if an error occurs
+	 * @throws IOException if an error occurs
+	 */
 	
 	public Model readModel(File file) throws XmlPullParserException, IOException {
 		try (

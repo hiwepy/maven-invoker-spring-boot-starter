@@ -32,6 +32,7 @@ import org.springframework.util.StringUtils;
  * Maven Invoker 参数配置
  * 
  * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
  */
 @ConfigurationProperties(MavenInvokerProperties.PREFIX)
 public class MavenInvokerProperties {
@@ -216,238 +217,333 @@ public class MavenInvokerProperties {
 	 * settings from the default location.
 	 */
 	private String userSettings;
+	/**
+	 * <p>Is also make.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isAlsoMake() {
 		return alsoMake;
 	}
+	/** Sets the also make. */
 
 	public void setAlsoMake(boolean alsoMake) {
 		this.alsoMake = alsoMake;
 	}
+	/**
+	 * <p>Is also make dependents.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isAlsoMakeDependents() {
 		return alsoMakeDependents;
 	}
+	/** Sets the also make dependents. */
 
 	public void setAlsoMakeDependents(boolean alsoMakeDependents) {
 		this.alsoMakeDependents = alsoMakeDependents;
 	}
+	/**
+	 * <p>Is batch mode.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isBatchMode() {
 		return batchMode;
 	}
+	/** Sets the batch mode. */
 
 	public void setBatchMode(boolean batchMode) {
 		this.batchMode = batchMode;
 	}
+	/**
+	 * <p>Is debug.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isDebug() {
 		return debug;
 	}
+	/** Sets the debug. */
 
 	public void setDebug(boolean debug) {
 		this.debug = debug;
 	}
+	/** Gets the global settings. */
 
 	public String getGlobalSettings() {
 		return globalSettings;
 	}
+	/** Sets the global settings. */
 
 	public void setGlobalSettings(String globalSettings) {
 		this.globalSettings = globalSettings;
 	}
+	/** Gets the global toolchains. */
 
 	public String getGlobalToolchains() {
 		return globalToolchains;
 	}
+	/** Sets the global toolchains. */
 
 	public void setGlobalToolchains(String globalToolchains) {
 		this.globalToolchains = globalToolchains;
 	}
+	/** Gets the global checksum policy. */
 
 	public CheckSumPolicy getGlobalChecksumPolicy() {
 		return globalChecksumPolicy;
 	}
+	/** Sets the global checksum policy. */
 
 	public void setGlobalChecksumPolicy(CheckSumPolicy globalChecksumPolicy) {
 		this.globalChecksumPolicy = globalChecksumPolicy;
 	}
+	/** Gets the java home. */
 
 	public String getJavaHome() {
 		return javaHome;
 	}
+	/** Sets the java home. */
 
 	public void setJavaHome(String javaHome) {
 		this.javaHome = javaHome;
 	}
+	/** Gets the local repository. */
 
 	public String getLocalRepository() {
 		return localRepository;
 	}
+	/** Sets the local repository. */
 
 	public void setLocalRepository(String localRepository) {
 		this.localRepository = localRepository;
 	}
+	/** Gets the maven executable. */
 
 	public String getMavenExecutable() {
 		return mavenExecutable;
 	}
+	/** Sets the maven executable. */
 
 	public void setMavenExecutable(String mavenExecutable) {
 		this.mavenExecutable = mavenExecutable;
 	}
+	/** Gets the maven home. */
 
 	public String getMavenHome() {
 		return mavenHome;
 	}
+	/** Sets the maven home. */
 
 	public void setMavenHome(String mavenHome) {
 		this.mavenHome = mavenHome;
 	}
+	/** Gets the maven opts. */
 
 	public String getMavenOpts() {
 		return mavenOpts;
 	}
+	/** Sets the maven opts. */
 
 	public void setMavenOpts(String mavenOpts) {
 		this.mavenOpts = mavenOpts;
 	}
+	/** Gets the maven repositorys. */
 
 	public Map<String, String> getMavenRepositorys() {
 		return mavenRepositorys;
 	}
+	/** Sets the maven repositorys. */
 
 	public void setMavenRepositorys(Map<String, String> mavenRepositorys) {
 		this.mavenRepositorys = mavenRepositorys;
 	}
+	/**
+	 * <p>Is non plugin updates.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isNonPluginUpdates() {
 		return nonPluginUpdates;
 	}
+	/** Sets the non plugin updates. */
 
 	public void setNonPluginUpdates(boolean nonPluginUpdates) {
 		this.nonPluginUpdates = nonPluginUpdates;
 	}
+	/**
+	 * <p>Is offline.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isOffline() {
 		return offline;
 	}
+	/** Sets the offline. */
 
 	public void setOffline(boolean offline) {
 		this.offline = offline;
 	}
+	/** Gets the properties. */
 
 	public Properties getProperties() {
 		return properties;
 	}
+	/** Sets the properties. */
 
 	public void setProperties(Properties properties) {
 		this.properties = properties;
 	}
+	/** Gets the pom filename. */
 
 	public String getPomFilename() {
 		return pomFilename;
 	}
+	/** Sets the pom filename. */
 
 	public void setPomFilename(String pomFilename) {
 		this.pomFilename = pomFilename;
 	}
+	/** Gets the profiles. */
 
 	public List<String> getProfiles() {
 		return profiles;
 	}
+	/** Sets the profiles. */
 
 	public void setProfiles(List<String> profiles) {
 		this.profiles = profiles;
 	}
+	/** Gets the projects. */
 
 	public List<String> getProjects() {
 		return projects;
 	}
+	/** Sets the projects. */
 
 	public void setProjects(List<String> projects) {
 		this.projects = projects;
 	}
+	/** Gets the reactor failure behavior. */
 
 	public ReactorFailureBehavior getReactorFailureBehavior() {
 		return reactorFailureBehavior;
 	}
+	/** Sets the reactor failure behavior. */
 
 	public void setReactorFailureBehavior(ReactorFailureBehavior reactorFailureBehavior) {
 		this.reactorFailureBehavior = reactorFailureBehavior;
 	}
+	/**
+	 * <p>Is recursive.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isRecursive() {
 		return recursive;
 	}
+	/** Sets the recursive. */
 
 	public void setRecursive(boolean recursive) {
 		this.recursive = recursive;
 	}
+	/** Gets the resume from. */
 
 	public String getResumeFrom() {
 		return resumeFrom;
 	}
+	/** Sets the resume from. */
 
 	public void setResumeFrom(String resumeFrom) {
 		this.resumeFrom = resumeFrom;
 	}
+	/**
+	 * <p>Is shell environment inherited.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isShellEnvironmentInherited() {
 		return shellEnvironmentInherited;
 	}
+	/** Sets the shell environment inherited. */
 
 	public void setShellEnvironmentInherited(boolean shellEnvironmentInherited) {
 		this.shellEnvironmentInherited = shellEnvironmentInherited;
 	}
+	/**
+	 * <p>Is show errors.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isShowErrors() {
 		return showErrors;
 	}
+	/** Sets the show errors. */
 
 	public void setShowErrors(boolean showErrors) {
 		this.showErrors = showErrors;
 	}
+	/**
+	 * <p>Is show version.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isShowVersion() {
 		return showVersion;
 	}
+	/** Sets the show version. */
 
 	public void setShowVersion(boolean showVersion) {
 		this.showVersion = showVersion;
 	}
+	/** Gets the shell environments. */
 
 	public Map<String, String> getShellEnvironments() {
 		return shellEnvironments;
 	}
+	/** Sets the shell environments. */
 
 	public void setShellEnvironments(Map<String, String> shellEnvironments) {
 		this.shellEnvironments = shellEnvironments;
 	}
+	/** Gets the threads. */
 	
 	public int getThreads() {
 		return threads;
 	}
+	/** Sets the threads. */
 
 	public void setThreads(int threads) {
 		this.threads = threads;
 	}
+	/**
+	 * <p>Is update snapshots.</p>
+	 * @return the boolean
+	 */
 
 	public boolean isUpdateSnapshots() {
 		return updateSnapshots;
 	}
+	/** Sets the update snapshots. */
 
 	public void setUpdateSnapshots(boolean updateSnapshots) {
 		this.updateSnapshots = updateSnapshots;
 	}
+	/** Gets the user settings. */
 
 	public String getUserSettings() {
 		return userSettings;
 	}
+	/** Sets the user settings. */
 
 	public void setUserSettings(String userSettings) {
 		this.userSettings = userSettings;
 	}
+	/**
+	 * <p>New request.</p>
+	 * @return the invocation request
+	 */
 
 	public InvocationRequest newRequest() {
 

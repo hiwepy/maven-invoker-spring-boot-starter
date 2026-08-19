@@ -20,19 +20,37 @@ import org.springframework.util.StringUtils;
 @Configuration
 @ConditionalOnClass({ DefaultInvoker.class })
 @EnableConfigurationProperties({ MavenInvokerProperties.class })
+/**
+ * <p>Auto-configuration for Maven Invoker integration.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class MavenInvokerAutoConfiguration {
+	/**
+	 * <p>Output handler.</p>
+	 * @return the invocation output handler
+	 */
 
 	@Bean
 	@ConditionalOnMissingBean
 	public InvocationOutputHandler outputHandler() {
 		return new SystemOutHandler();
 	}
+	/**
+	 * <p>Error handler.</p>
+	 * @return the invocation output handler
+	 */
 
 	@Bean
 	@ConditionalOnMissingBean
 	public InvocationOutputHandler errorHandler() {
 		return new PrintStreamHandler(System.err, false);
 	}
+	/**
+	 * <p>Invoker logger.</p>
+	 * @return the invoker logger
+	 */
 
 	@Bean
 	@ConditionalOnMissingBean
